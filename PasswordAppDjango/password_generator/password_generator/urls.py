@@ -21,5 +21,5 @@ from passwordGenApp import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home),
-    path('password/', views.pasword_gen)
+    path('password/', views.password_gen)
 ]
